@@ -344,9 +344,7 @@ kubectl get svc
 
 
 
-!(img/kubinst3.png)
-
-!(img/kubinst4.png)
+![Kube_Inst](img/kubinst4.png)
 
 </details>
 
