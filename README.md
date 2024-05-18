@@ -344,9 +344,9 @@ kubectl get svc
 
 
 
-![TCP_Handshake](img/kubinst3.png)
+!(img/kubinst3.png)
 
-
+!(img/kubinst4.png)
 
 </details>
 
