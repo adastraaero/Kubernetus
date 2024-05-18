@@ -349,6 +349,22 @@ kubectl get svc
 </details>
 
 
+Добавляем autocompletion
+
+```
+# install bash-completion on debian
+apt update && apt install -y bash-completion
+
+# add the following lines to your .bashrc file
+echo 'source <(kubectl completion bash)' >> ~/.bashrc
+echo 'source /usr/share/bash-completion/bash_completion' >> ~/.bashrc
+echo 'alias k=kubectl' >> ~/.bashrc
+echo 'complete -o default -F __start_kubectl k' >> ~/.bashrc
+
+# source your .bashrc
+source ~/.bashrc
+```
+
 
 
 
